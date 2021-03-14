@@ -1,0 +1,59 @@
+body{
+	background-color: #000000;
+
+}
+
+.frame{
+	background-color: #0d101d;
+	border: 2px;
+	border-radius: 9px;
+	border-style: solid;
+	border-color: #73ad21;
+	width: 600px;
+	top: 10%;
+	margin: auto;
+	margin-top: 50px;
+
+}
+
+#ID{
+	float: right;
+	position: relative;
+	right: 10px; top: 10px;
+	width: 170px;
+	border: 2px #f0f0f0;
+}
+
+p{
+	color: #f0f0f0;
+	font-family: georgia;
+}
+
+.question{
+	position: relative;
+}
+
+.answer{
+	position: relative;
+	left: 5%;
+}
+
+.a{
+	background-color: #33cc33;
+	border-right: 2.5mm solid rgba(31, 122, 31,1);
+	border-bottom: 2.5mm solid rgba(31, 122, 31,1);
+	border-left: 2.5mm solid rgba(113, 255, 113,1);
+	border-top: 2.5mm solid rgba(113, 255, 113,1);
+	position: fixed;
+	top: 10%; left: 5%; right: 5%;
+	border-style: none;
+	border-style: hidden;
+	border-style: dotted;
+	border-style: dashed;
+	border-style: solid;
+	border-style: double;
+	border-style: groove;
+	border-style: ridge;
+	border-style: inset;
+	border-style: outset;
+}
