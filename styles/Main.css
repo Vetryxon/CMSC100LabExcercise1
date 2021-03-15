@@ -21,21 +21,32 @@ body{
 	position: relative;
 	right: 10px; top: 10px;
 	width: 170px;
-	border: 2px #f0f0f0;
+	border: 3px solid #73ad21;
+	border-radius: 50px;
 }
 
-p{
+div{
 	color: #f0f0f0;
 	font-family: georgia;
+	line-height: 240%;
 }
 
 .question{
+	font-family: "Comic Sans MS";
 	position: relative;
+	display: inline-block;
+	left: 2%; top:3px;
+	border-top: 1px dashed white; border-bottom: 1px dashed white;
 }
 
 .answer{
 	position: relative;
-	left: 5%;
+	left: 3%;
+	text-indent: 60px;
+}
+
+#emphasis{
+	font-size: 30;
 }
 
 .a{
@@ -46,14 +57,4 @@ p{
 	border-top: 2.5mm solid rgba(113, 255, 113,1);
 	position: fixed;
 	top: 10%; left: 5%; right: 5%;
-	border-style: none;
-	border-style: hidden;
-	border-style: dotted;
-	border-style: dashed;
-	border-style: solid;
-	border-style: double;
-	border-style: groove;
-	border-style: ridge;
-	border-style: inset;
-	border-style: outset;
 }
